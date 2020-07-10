@@ -1,0 +1,18 @@
+<div class="teams">
+  {% for team in site.data.scores %}
+    <div class="team">
+      {% assign score = 0 %}
+      {% for attempt in team.attempts %}
+        {% if attempt.correct %}
+          {% assign score = score | plus: attempt.amount %}
+        {% else %}
+          {% assign score = score | minus: attempt.amount %}
+        {% endif %}
+      {% endfor %}
+
+
+      <div class="team-name">{{ team.team_name }}</div>
+      <div class="team-score">${{ score }}</div>
+    </div>
+  {% endfor %}
+</div>

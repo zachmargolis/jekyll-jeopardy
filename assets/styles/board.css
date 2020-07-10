@@ -1,0 +1,76 @@
+@font-face {
+  font-family: HelveticaCompressed;
+  src: url(/assets/fonts/Helvetica-Compressed_22459.ttf);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: HelveticaCompressed;
+  font-size: 18pt;
+  background: rgb(45, 63, 250);
+}
+
+.board {
+  display: flex;
+  border: 5px solid black;
+}
+
+.category {
+  flex-grow: 1;
+}
+
+.category-title,
+.category-question {
+  height: 60px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  border: 5px solid black;
+  padding: 10px;
+}
+
+
+.category-title {
+  font-size: 18pt;
+  color: white;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 50%);
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.category-question {
+}
+
+.category-question[data-disabled=true] {
+  display:;
+}
+
+.question-amount {
+  color: rgb(231, 171, 106);
+  font-size: 48pt;
+  font-weight: bold;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 50%);
+}
+
+.teams {
+  display: flex;
+  padding: 20px;
+}
+
+.team {
+  flex-grow: 1;
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 50%);
+}
+
+.team-name {
+  font-family: HelveticaNeue, Helvetica, sans-serif;
+}
+
+.team-score {
+  font-size: 36pt;
+}

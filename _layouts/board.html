@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="{{ 'assets/styles/board.css' | prepend: site.baseurl }}" />
+  </head>
+  <body>
+    {{ content }}
+
+    {% include scores.html %}
+  </body>
+</html>

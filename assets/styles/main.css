@@ -1,0 +1,19 @@
+.board {
+  display: flex;
+}
+
+.category {
+  flex-grow: 1;
+}
+
+.category-title,
+.category-question {
+  color: red;
+}
+
+
+.category-title {
+}
+
+.category-question {
+}

@@ -1,0 +1,17 @@
+{%- comment %}
+Includes:
+- category
+- amount
+{%- endcomment %}
+{%- for team in site.data.scores -%}
+  {%- for attempt in team.attempts -%}
+    {%- if attempt.category == include.category -%}
+      {%- if attempt.amount == include.amount -%}
+        {%- if attempt.correct -%}
+          true
+          {%- break -%}
+        {%- endif -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}

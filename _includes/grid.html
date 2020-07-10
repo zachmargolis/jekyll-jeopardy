@@ -1,0 +1,30 @@
+{% comment %}
+Includes:
+
+- data
+  An array of categories with an array of questions
+{% endcomment %}
+<div class="board">
+  {% for category in include.data %}
+    <div class="category">
+      <div class="category-title">
+        {{ category.title }}
+      </div>
+      {% for question in category.questions %}
+        {%- capture is_disabled -%}
+          {%- include is_disabled.txt category=category.title amount=question.amount -%}
+        {%- endcapture -%}
+
+        <div class="category-question">
+          <div class="question-amount" data-disabled="{{ is_disabled }}">
+            {% if is_disabled == 'true' %}
+              &nbsp;
+            {% else %}
+              ${{ question.amount }}
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endfor %}
+</div>
