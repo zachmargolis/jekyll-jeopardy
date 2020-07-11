@@ -3,10 +3,11 @@
     <div class="contestant">
       {% assign score = 0 %}
       {% for attempt in contestant.attempts %}
+        {% assign amount = attempt.wager | default: attempt.amount %}
         {% if attempt.correct %}
-          {% assign score = score | plus: attempt.amount %}
+          {% assign score = score | plus: amount %}
         {% else %}
-          {% assign score = score | minus: attempt.amount %}
+          {% assign score = score | minus: amount %}
         {% endif %}
       {% endfor %}
 

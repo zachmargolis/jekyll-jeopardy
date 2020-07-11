@@ -7,7 +7,7 @@ Includes:
   {%- for attempt in contestant.attempts -%}
     {%- if attempt.category == include.category -%}
       {%- if attempt.amount == include.amount -%}
-        {%- if attempt.correct -%}
+        {%- if attempt.correct or attempt.wager -%}
           true
           {%- break -%}
         {%- endif -%}

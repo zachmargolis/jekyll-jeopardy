@@ -1,4 +1,5 @@
-- category: "Potent Potables"
+- category: potent_potables
+  title: "Potent Potables"
   questions:
     - amount: 100
       prompt: "This person is a person"
@@ -10,7 +11,8 @@
       prompt: "This person is a person"
     - amount: 500
       prompt: "This person is a person"
-- category: "Unique New York"
+- category: unique_new_york
+  title: "Unique New York"
   questions:
     - amount: 100
       prompt: "This person is a person"
@@ -23,7 +25,8 @@
       prompt: "This person is a person"
     - amount: 500
       prompt: "This person is a person"
-- category: "Honey I Fucked Up"
+- category: honey_i_fucked_up
+  title: "Honey I Fucked Up"
   questions:
     - amount: 100
       prompt: "This person is a person"
@@ -35,7 +38,8 @@
       prompt: "This person is a person"
     - amount: 500
       prompt: "This person is a person"
-- category: "Another title"
+- category: another_title
+  title: "Another title"
   questions:
     - amount: 100
       prompt: "This person is a person"
@@ -47,7 +51,8 @@
       prompt: "This person is a person"
     - amount: 500
       prompt: "This person is a person"
-- category: "Fifth title"
+- category: fifth_title
+  title: "Fifth title"
   questions:
     - amount: 100
       prompt: "This person is a person"
@@ -59,7 +64,8 @@
       prompt: "This person is a person"
     - amount: 500
       prompt: "This person is a person"
-- category: "Sixth title"
+- category: sixth_title
+  title: "Sixth title"
   questions:
     - amount: 100
       prompt: "This person is a person"

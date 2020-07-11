@@ -2,41 +2,45 @@ contestants:
   - name: "We're the best team"
     attempts:
       - correct: true
-        category: "Potent Potables"
+        category: potent_potables
         amount: 300
       - correct: true
-        category: "Another title"
+        category: another_title
         amount: 400
       - correct: true
-        category: "Another title"
+        category: another_title
         amount: 500
 
   - name: "We're the worst team"
     attempts:
       - correct: false
-        category: "Honey I Fucked Up"
+        category: honey_i_fucked_up
         amount: 200
       - correct: false
-        category: "Potent Potables"
+        category: potent_potables
         amount: 300
 
   - name: "We're an okay team"
     attempts:
       - correct: true
-        category: "Honey I Fucked Up"
+        category: honey_i_fucked_up
         amount: 200
 
   - name: "Third Place Finishers"
     attempts:
       - correct: false
-        category: "Another title"
+        category: another_title
         amount: 300
       - correct: false
-        category: "Another title"
+        category: another_title
         amount: 400
       - correct: false
-        category: "Another title"
+        category: another_title
         amount: 500
+      - correct: true
+        category: fifth_title
+        amount: 100
+        wager: 1888
 
   - name: "DC Homos"
 

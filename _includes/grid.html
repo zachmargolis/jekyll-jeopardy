@@ -8,7 +8,7 @@ Includes:
   {% for category in include.data %}
     <div class="category">
       <div class="category-title">
-        {{ category.category }}
+        {{ category.title }}
       </div>
       {% for question in category.questions %}
         {%- capture is_disabled -%}
@@ -24,8 +24,6 @@ Includes:
             {%- capture question_target -%}
               {%- if question.daily_double -%}
                 {{ slug }}-daily-double
-              {%- else -%}
-                {{ slug }}
               {%- endif -%}
             {%- endcapture -%}
 
