@@ -19,6 +19,7 @@ Includes:
   {%- if attempt.category == include.category -%}
     {%- if attempt.amount == include.amount -%}
       true
+      {%- break -%}
     {%- endif -%}
   {%- endif -%}
 {%- endfor -%}

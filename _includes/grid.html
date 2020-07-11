@@ -12,7 +12,7 @@ Includes:
       </div>
       {% for question in category.questions %}
         {%- capture is_disabled -%}
-          {%- include is_disabled.txt category=category.title amount=question.amount -%}
+          {%- include is_disabled.txt category=category.category amount=question.amount -%}
         {%- endcapture -%}
 
         {% assign slug = category.category | append: '-' | append: question.amount | slugify %}
@@ -21,15 +21,45 @@ Includes:
           {% if is_disabled == 'true' %}
               &nbsp;
           {% else %}
-            <a class="question-amount" href="#{{ slug }}">
+            {%- capture question_target -%}
+              {%- if question.daily_double -%}
+                {{ slug }}-daily-double
+              {%- else -%}
+                {{ slug }}
+              {%- endif -%}
+            {%- endcapture -%}
+
+            <a class="question-amount" href="#{{ slug }}" data-daily-double="{{ question.daily_double }}">
               ${{ question.amount }}
             </a>
-            <a class="question-prompt" id="{{ slug }}" href="#">
-              {{ question.prompt }}
+
+            <a class="question-prompt" id="{{ slug }}" href="#{{ question_target }}">
+              {% if question.daily_double %}
+                Daily Double!
+              {% else %}
+                {{ question.prompt }}
+              {% endif %}
             </a>
+
+            {% if question.daily_double %}
+              <a class="question-prompt" id="{{ slug }}-daily-double" href="#">
+                {{ question.prompt }}
+              </a>
+            {% endif %}
           {% endif %}
         </div>
       {% endfor %}
     </div>
   {% endfor %}
 </div>
+
+<script type="text/javascript">
+  document
+    .querySelectorAll('a[data-daily-double=true]')
+    .forEach((a) => {
+      let audio = new Audio("/assets/audio/daily-double.m4a");
+      a.onclick = () => {
+        audio.play();
+      };
+    });
+</script>
