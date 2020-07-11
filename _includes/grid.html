@@ -15,14 +15,19 @@ Includes:
           {%- include is_disabled.txt category=category.title amount=question.amount -%}
         {%- endcapture -%}
 
-        <div class="category-question">
-          <div class="question-amount" data-disabled="{{ is_disabled }}">
-            {% if is_disabled == 'true' %}
+        {% assign slug = category.title | append: '-' | append: question.amount | slugify %}
+
+        <div class="category-question" data-disabled="{{ is_disabled }}">
+          {% if is_disabled == 'true' %}
               &nbsp;
-            {% else %}
+          {% else %}
+            <a class="question-amount" href="#{{ slug }}">
               ${{ question.amount }}
-            {% endif %}
-          </div>
+            </a>
+            <a class="question-prompt" id="{{ slug }}" href="#">
+              {{ question.prompt }}
+            </a>
+          {% endif %}
         </div>
       {% endfor %}
     </div>

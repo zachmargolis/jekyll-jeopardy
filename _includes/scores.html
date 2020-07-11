@@ -1,8 +1,8 @@
-<div class="teams">
-  {% for team in site.data.scores %}
-    <div class="team">
+<div class="contestants">
+  {% for contestant in site.data.scores %}
+    <div class="contestant">
       {% assign score = 0 %}
-      {% for attempt in team.attempts %}
+      {% for attempt in contestant.attempts %}
         {% if attempt.correct %}
           {% assign score = score | plus: attempt.amount %}
         {% else %}
@@ -11,8 +11,8 @@
       {% endfor %}
 
 
-      <div class="team-name">{{ team.team_name }}</div>
-      <div class="team-score">${{ score }}</div>
+      <div class="contestant-name">{{ contestant.name }}</div>
+      <div class="contestant-score">${{ score }}</div>
     </div>
   {% endfor %}
 </div>

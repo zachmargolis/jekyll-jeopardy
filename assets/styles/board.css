@@ -3,6 +3,12 @@
   src: url(/assets/fonts/Helvetica-Compressed_22459.ttf);
 }
 
+@font-face {
+  font-family: ITCKorinna;
+  src: url(/assets/fonts/Korinna-Regular.otf);
+}
+
+
 body {
   padding: 0;
   margin: 0;
@@ -13,7 +19,6 @@ body {
 
 .board {
   display: flex;
-  border: 5px solid black;
 }
 
 .category {
@@ -22,14 +27,13 @@ body {
 
 .category-title,
 .category-question {
-  height: 60px;
+  height: 50px;
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
 
-  border: 5px solid black;
-  padding: 10px;
+  padding: 20px;
 }
 
 
@@ -44,33 +48,69 @@ body {
 .category-question {
 }
 
-.category-question[data-disabled=true] {
-  display:;
-}
-
 .question-amount {
   color: rgb(231, 171, 106);
   font-size: 48pt;
   font-weight: bold;
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 50%);
+  text-decoration: none;
 }
 
-.teams {
+.question-prompt {
+  /* text stuff */
+  align-items: center;
+  background: rgb(45, 63, 250);
+  color: white;
+  display: flex;
+  font: 36pt ITCKorinna;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  /* layout stuff */
+  z-index: 1000;
+  visibility: hidden;
+  position: absolute;
+  width: 10vw;
+  height: 10vh;
+
+  transform: scale(0.125) rotateZ(0.125turn) rotateY(0) rotateX(1turn);
+
+  /* animation stuff */
+  opacity: 0;
+  transition: opacity 0.5s,
+              transform 1s;
+}
+
+.question-prompt:target {
+  visibility: visible;
+  opacity: 100;
+  top: 0;
+  left: 0;
+  width: 90vw;
+  height: 90vh;
+  padding: 5vh 5vw;
+
+  transform: scale(1) rotateZ(0) rotateY(0) rotateX(0);
+}
+
+.contestants {
   display: flex;
   padding: 20px;
 }
 
-.team {
+.contestant {
   flex-grow: 1;
   text-align: center;
   color: white;
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 50%);
 }
 
-.team-name {
+.contestant-name {
   font-family: HelveticaNeue, Helvetica, sans-serif;
 }
 
-.team-score {
+.contestant-score {
   font-size: 36pt;
 }

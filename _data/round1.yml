@@ -17,7 +17,7 @@
     - amount: 200
       prompt: "This person is a person"
     - amount: 300
-      prompt: "This person is a person"
+      prompt: "This person is a person who does lots of stuff and has a really long question that hopefully will wrap to a second line"
     - amount: 400
       prompt: "This person is a person"
     - amount: 500

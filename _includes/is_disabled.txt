@@ -3,8 +3,8 @@ Includes:
 - category
 - amount
 {%- endcomment %}
-{%- for team in site.data.scores -%}
-  {%- for attempt in team.attempts -%}
+{%- for contestant in site.data.scores -%}
+  {%- for attempt in contestant.attempts -%}
     {%- if attempt.category == include.category -%}
       {%- if attempt.amount == include.amount -%}
         {%- if attempt.correct -%}
