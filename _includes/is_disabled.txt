@@ -3,7 +3,7 @@ Includes:
 - category
 - amount
 {%- endcomment %}
-{%- for contestant in site.data.scores -%}
+{%- for contestant in site.data.results.contestants -%}
   {%- for attempt in contestant.attempts -%}
     {%- if attempt.category == include.category -%}
       {%- if attempt.amount == include.amount -%}
@@ -14,4 +14,11 @@ Includes:
       {%- endif -%}
     {%- endif -%}
   {%- endfor -%}
+{%- endfor -%}
+{%- for attempt in site.data.results.disabled -%}
+  {%- if attempt.category == include.category -%}
+    {%- if attempt.amount == include.amount -%}
+      true
+    {%- endif -%}
+  {%- endif -%}
 {%- endfor -%}

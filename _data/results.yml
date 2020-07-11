@@ -1,0 +1,47 @@
+contestants:
+  - name: "We're the best team"
+    attempts:
+      - correct: true
+        category: "Potent Potables"
+        amount: 300
+      - correct: true
+        category: "Another title"
+        amount: 400
+      - correct: true
+        category: "Another title"
+        amount: 500
+
+  - name: "We're the worst team"
+    attempts:
+      - correct: false
+        category: "Honey I Fucked Up"
+        amount: 200
+      - correct: false
+        category: "Potent Potables"
+        amount: 300
+
+  - name: "We're an okay team"
+    attempts:
+      - correct: true
+        category: "Honey I Fucked Up"
+        amount: 200
+
+  - name: "Third Place Finishers"
+    attempts:
+      - correct: false
+        category: "Another title"
+        amount: 300
+      - correct: false
+        category: "Another title"
+        amount: 400
+      - correct: false
+        category: "Another title"
+        amount: 500
+
+  - name: "DC Homos"
+
+  - name: "Harry Potter and the Answer in the Form of a Question"
+
+disabled:
+  - category: "Unique New York"
+    amount: 500

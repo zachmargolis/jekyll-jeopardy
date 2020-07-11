@@ -8,14 +8,14 @@ Includes:
   {% for category in include.data %}
     <div class="category">
       <div class="category-title">
-        {{ category.title }}
+        {{ category.category }}
       </div>
       {% for question in category.questions %}
         {%- capture is_disabled -%}
           {%- include is_disabled.txt category=category.title amount=question.amount -%}
         {%- endcapture -%}
 
-        {% assign slug = category.title | append: '-' | append: question.amount | slugify %}
+        {% assign slug = category.category | append: '-' | append: question.amount | slugify %}
 
         <div class="category-question" data-disabled="{{ is_disabled }}">
           {% if is_disabled == 'true' %}

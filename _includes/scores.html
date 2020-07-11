@@ -1,5 +1,5 @@
 <div class="contestants">
-  {% for contestant in site.data.scores %}
+  {% for contestant in site.data.results.contestants %}
     <div class="contestant">
       {% assign score = 0 %}
       {% for attempt in contestant.attempts %}
