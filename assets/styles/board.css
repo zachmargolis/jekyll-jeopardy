@@ -75,10 +75,12 @@ body {
   width: 10vw;
   height: 10vh;
 
-  transform: scale(0.125) rotateZ(0.125turn) rotateY(0) rotateX(1turn);
-
-  /* animation stuff */
   opacity: 0;
+  transform: scale(0.125) rotateZ(0.125turn) rotateY(0) rotateX(1turn);
+}
+
+.question-prompt-animate {
+  /* animation stuff */
   transition: opacity 0.5s,
               transform 1s;
 }
