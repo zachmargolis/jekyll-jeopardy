@@ -4,8 +4,14 @@ Includes:
 - data
   An array of categories with an array of questions
 {% endcomment %}
+<div class="board-title">
+  {{ include.data.title }}
+  {% if include.data.next %}
+    <a href="{{ include.data.next }}" class="next-link">&rarr;</a>
+  {% endif %}
+</div>
 <div class="board">
-  {% for category in include.data %}
+  {% for category in include.data.questions %}
     <div class="category">
       <div class="category-title">
         {{ category.title }}
@@ -23,7 +29,9 @@ Includes:
           {% else %}
             {%- capture question_target -%}
               {%- if question.daily_double -%}
-                {{ slug }}-daily-double
+                #{{ slug }}-daily-double
+              {%- else if question.media -%}
+                {{ question.media }}
               {%- endif -%}
             {%- endcapture -%}
 
@@ -31,7 +39,7 @@ Includes:
               ${{ question.amount }}
             </a>
 
-            <a class="question-prompt question-prompt-animate" id="{{ slug }}" href="#{{ question_target }}">
+            <a class="question-prompt question-prompt-animate" id="{{ slug }}" href="{{ question_target }}">
               {% if question.daily_double %}
                 Daily Double!
               {% else %}

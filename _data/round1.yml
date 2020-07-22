@@ -1,79 +1,117 @@
-- category: potent_potables
-  title: "Potent Potables"
+title: Round 1
+next: /2
+questions:
+- category: 3g_capability
+  title: "3 G Capability"
   questions:
-    - amount: 100
-      prompt: "This person is a person"
     - amount: 200
-      prompt: "This person is a person"
-    - amount: 300
-      prompt: "This person is a person"
+      prompt: "There's a (nonalcoholic) Southern Comfort brand of this Christmas drink"
+      answer: "eggnog"
     - amount: 400
-      prompt: "This person is a person"
-    - amount: 500
-      prompt: "This person is a person"
-- category: unique_new_york
-  title: "Unique New York"
+      prompt: "It's the group name, seen here"
+      media: /assets/images/geese.jpg
+    - amount: 600
+      prompt: "A batter making 275 total bases in 500 times at bat has this kind of percentage of .550"
+      answer: "slugging"
+    - amount: 800
+      prompt: "The main topmast stay is part of this, the system of ropes & chains supporting sails"
+      answer: "rigging"
+    - amount: 1000
+      prompt: This term can apply geologically to a rock or just mean combined
+      answer: aggregate
+
+- category: podcasts
+  title: "Podcasts"
   questions:
-    - amount: 100
-      prompt: "This person is a person"
     - amount: 200
-      prompt: "This person is a person"
-    - amount: 300
-      prompt: "This person is a person who does lots of stuff and has a really long question that hopefully will wrap to a second line"
+      prompt: Professor Steven Levitt looks at his field a bit differently, so the podcast he's on isn't "Economics" but this
+      answer: Freakonomics
+    - amount: 400
+      prompt: It's fitting that WBEZ in this city produced the biographical podcast "Making Obama"
+      answer: Chicago
+    - amount: 600
+      prompt: This former HLN host takes on the misdeeds of the day on her "Crime Stories" podcast
+      answer: Nancy Grace
+    - amount: 800
+      prompt: This conference series also has a podcast of talks between smart people & its head honcho Chris Anderson
+      answer: TED
+    - amount: 1000
+      prompt: No rainbow, but this PBS host & "Roots" actor reads short fiction on his podcast
+      answer: (LeVar) Burton
+
+- category: colorful_terminology
+  title: "Colorful Terminology"
+  questions:
+    - amount: 200
+      prompt: One who does this threatens to reveal damaging information if not paid to keep quiet
+      answer: blackmails
+    - amount: 400
+      prompt: When one of these is "raised", it's a warning of danger
+      answer: a red flag
+    - amount: 600
+      prompt: Not a full but a partial loss of electrical power
+      answer: a brownout
+    - amount: 800
+      prompt: A drawing made in designing a building, or any plan, as in one "for success"
+      answer: a blueprint
+    - amount: 1000
+      prompt: More verdant paddocks, or something more promising, like a new job
+      answer: greener pastures
+
+- category: brand_mascots
+  title: "Brand Mascots"
+  questions:
+    - amount: 200
+      prompt: "Rich Uncle Pennybags: this board game"
+      answer: Monopoly
+    - amount: 400
+      prompt: "A dog named Bullseye: this retailer"
+      answer: Target
       daily_double: true
-    - amount: 400
-      prompt: "This person is a person"
-    - amount: 500
-      prompt: "This person is a person"
-- category: honey_i_fucked_up
-  title: "Honey I Fucked Up"
+    - amount: 600
+      prompt: "This dapper guy: Planters"
+      answer: Peanuts
+    - amount: 800
+      prompt: "This bird with a long, colorful bill: Froot Loops"
+      answer: Toucan Sam
+    - amount: 1000
+      prompt: "Elsie the Cow: this dairy company"
+      answer: Borden
+
+- category: hello
+  title: "Hello!"
   questions:
-    - amount: 100
-      prompt: "This person is a person"
     - amount: 200
-      prompt: "This person is a person"
-    - amount: 300
-      prompt: "This person is a person"
+      prompt: Logically, this is the Spanish-language version of the British magazine "Hello!"
+      answer: ¡Hola!
     - amount: 400
-      prompt: "This person is a person"
-    - amount: 500
-      prompt: "This person is a person"
-- category: another_title
-  title: "Another title"
+      prompt: A doorbell begins "Hello!", the opening number for this hit 2011 religious-themed Broadway musical
+      answer: Book of Mormon
+    - amount: 600
+      prompt: Created in 1974, this Japanese character epitomizes the cuteness culture called "Kawaii"
+      answer: Hello Kitty
+    - amount: 800
+      prompt: This co that has let people say "hello" for almost 140 years now has a youthful social media studio called Hello Lab
+      answer: AT&T
+    - amount: 1000
+      prompt: Co-created by Zooey Deschanel, this lifestyle website had the last laugh in 2015 when Time, Inc. bought it out
+      answer: HelloGiggles
+
+- category: dont_blank_on_the_menu
+  title: "Don't Blank on the Menu"
   questions:
-    - amount: 100
-      prompt: "This person is a person"
     - amount: 200
-      prompt: "This person is a person"
-    - amount: 300
-      prompt: "This person is a person"
+      prompt: "McDonald's: 4-piece Chicken ___"
+      answer: McNuggets
     - amount: 400
-      prompt: "This person is a person"
-    - amount: 500
-      prompt: "This person is a person"
-- category: fifth_title
-  title: "Fifth title"
-  questions:
-    - amount: 100
-      prompt: "This person is a person"
-    - amount: 200
-      prompt: "This person is a person"
-    - amount: 300
-      prompt: "This person is a person"
-    - amount: 400
-      prompt: "This person is a person"
-    - amount: 500
-      prompt: "This person is a person"
-- category: sixth_title
-  title: "Sixth title"
-  questions:
-    - amount: 100
-      prompt: "This person is a person"
-    - amount: 200
-      prompt: "This person is a person"
-    - amount: 300
-      prompt: "This person is a person"
-    - amount: 400
-      prompt: "This person is a person"
-    - amount: 500
-      prompt: "This person is a person"
+      prompt: "Red Lobster: Hand-Battered ___ & ___"
+      answer: Fish & Chips
+    - amount: 600
+      prompt: "Dunkin': Munchkins Donut ___"
+      answer: Holes
+    - amount: 800
+      prompt: "Starbucks: Java Chip ___ Blended Beverage"
+      answer: Frappuccino
+    - amount: 1000
+      prompt: "Denny's: ___ ___ Slugger"
+      answer: Grand Slam

@@ -1,0 +1,123 @@
+title: Double Jeopardy!
+next: /3
+questions:
+- category: steamy_science
+  title: "Steamy Science"
+  questions:
+    - amount: 400
+      prompt: 'Big volumes of steam between the shortening & the dough put the puff in "puff" this'
+      answer: "Pastry"
+    - amount: 800
+      prompt: 'A steam iron smoothes wrinkles because heat breaks these between molecules of cellulose in fiber like cotton'
+      answer: "Bonds"
+    - amount: 1200
+      daily_double: true
+      prompt: 'Earthquakes have lengthened the average interval between its famed eruptions of water & steam by about 30 minutes'
+      answer: "Old Faithful"
+    - amount: 1600
+      prompt: "Boiling water that turns into steam is undergoing this phase change from liquid to gas"
+      answer: "Vaporization"
+    - amount: 2000
+      prompt: AKA steam coal, this most abundant type of coal gets its name from a Latin word for "pitch"
+      answer: "bituminous"
+- category: second
+  title: "Second…"
+  questions:
+    - amount: 400
+      prompt: "...in the Greek alphabet"
+      answer: beta
+    - amount: 800
+      prompt: ...by release date in "Star Wars" movies
+      answer: The Empire Strikes Back
+    - amount: 1200
+      prompt: ...part of Dante's "Divine Comedy"
+      answer: Purgatorio
+    - amount: 1600
+      prompt: ...bird mentioned in "The 12 Days of Christmas"
+      answer: a turtledove
+    - amount: 2000
+      prompt: ...U.S. president to be impeached
+      daily_double: true
+      answer: Bill Clinton
+- category: countries_lowest_points
+  title: Countries' Lowest Points
+  questions:
+    - amount: 400
+      prompt: "For Fiji: this ocean"
+      answer: "the Pacific"
+    - amount: 800
+      prompt: "For the United States: this hot spot that can get into the 120s & beyond"
+      answer: Death Valley
+    - amount: 1200
+      prompt: "For Israel: this body of water"
+      answer: "the Dead Sea"
+    - amount: 1600
+      prompt: "For Iraq & Saudi Arabia: this body of water"
+      answer: the Persian Gulf
+    - amount: 2000
+      prompt: "For Albania & Croatia: this sea"
+      answer: the Adriatic
+
+- category: acdc
+  title: "A_C_D_C"
+  extra:  Each correct response beginning with the letter "A" followed by those other letters somewhere there.)
+  questions:
+    - amount: 400
+      prompt: Scholarly, or irrelevant
+      answer: academic
+    - amount: 800
+      prompt: Woody Allen is a noted one of these show biz hyphenates
+      answer: actor-director
+    - amount: 1200
+      prompt: When you agree with something, you're "in" this with it
+      answer: accordance
+    - amount: 1600
+      prompt: Dice game in which you want to roll a 1 or a 2
+      answer: acey-deucey
+    - amount: 2000
+      prompt: Jose Gomez, seen here, runs this jurisdiction of Los Angeles
+      media: /assets/images/2015-06-22_DJ_17.jpg
+      answer: archdiocese
+
+- category: short_lived_tv_shows
+  title: "Short-Lived TV Shows"
+  questions:
+    - amount: 400
+      prompt: >
+        "Undeclared" had Seth Rogen, Kevin Hart, Amy Poehler & him, aka Ron Burgundy
+      answer: Will Ferrell
+    - amount: 800
+      prompt: >
+        "Studio 60 on the Sunset Strip" had Bradley Whitford, Merritt Wever, Amanda Peet & him, aka Chandler Bing
+      answer: Matthew Perry
+    - amount: 1200
+      prompt: >
+        "Who Killed Laura Palmer?" was the hot question after the 1990 debut of this ABC drama
+      answer: "Twin Peaks"
+    - amount: 1600
+      prompt: >
+        "My So-Called Life" only lasted a year but it did launch the career of this actress who played 15-year-old Angela Chase
+      answer: Claire Danes
+    - amount: 2000
+      prompt: >
+        "Dr. Vegas" was only in from September to October 2004 but starred Rob Lowe & this "American Hustle" redhead
+      answer: Amy Adams
+
+- category: please_belize_me
+  title: "Please Belize Me"
+  questions:
+    - amount: 400
+      prompt: In 1981 the sun set on this empire's colonial rule in newly independent Belize
+      answer: the British Empire (the United Kingdom accepted)
+    - amount: 800
+      prompt: On Oct. 31, 1961 Belize City was severely damaged by one of these; the capital was moved inland a few years later
+      answer: a hurricane
+    - amount: 1200
+      prompt: Belize has been involved for decades in border disputes with this western neighbor
+      answer: Guatemala
+    - amount: 1600
+      prompt: Belize's highest peak is known as this author's "Delight", for its resemblance to the setting of "The Lost World"
+      answer: Sir Arthur Conan Doyle
+    - amount: 2000
+      prompt: About one quarter of Belize's population is of this ethnicity of mixed African & European descent
+      answer: Creole

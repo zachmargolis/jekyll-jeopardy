@@ -17,6 +17,22 @@ body {
   background: rgb(45, 63, 250);
 }
 
+.board-title {
+  text-align: center;
+  font-family: HelveticaNeue, Helvetica, sans-serif;
+  color: white;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 50%);
+  padding-top: 10px;
+}
+
+.next-link {
+  text-decoration: none;
+  float: right;
+  display: block;
+  padding-right: 20px;
+  color: white;
+}
+
 .board {
   display: flex;
 }
@@ -43,6 +59,7 @@ body {
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 50%);
   text-transform: uppercase;
   font-weight: normal;
+  padding-bottom: 5px;
 }
 
 .category-question {
@@ -67,6 +84,7 @@ body {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 50%);
 
   /* layout stuff */
   z-index: 1000;

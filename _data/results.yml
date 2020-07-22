@@ -1,15 +1,26 @@
+slugs:
+  - 3g_capability
+  - podcasts
+  - colorful_terminology
+  - brand_mascots
+  - hello
+  - dont_blank_on_the_menu
+
+  - steamy_science
+  - second
+  - countries_lowest_points
+  - acdc
+  - short_lived_tv_shows
+
 contestants:
-  - name: "We're the best team"
+  - name: "Wiggles"
     attempts:
-      - correct: true
-        category: potent_potables
-        amount: 300
-      - correct: true
-        category: another_title
+      - category: potent_potables
+        amount: 200
+        correct: true
+      - category: another_title
         amount: 400
-      - correct: true
-        category: another_title
-        amount: 500
+        correct: false
 
   - name: "We're the worst team"
     attempts:
@@ -37,15 +48,19 @@ contestants:
       - correct: false
         category: another_title
         amount: 500
-      - correct: true
-        category: fifth_title
-        amount: 100
-        wager: 1888
+      # WAGER EXAMPLE
+      # - correct: true
+      #   category: fifth_title
+      #   amount: 100
+      #   wager: 1888
 
   - name: "DC Homos"
 
   - name: "Harry Potter and the Answer in the Form of a Question"
 
 disabled:
-  - category: "Unique New York"
-    amount: 500
+  # EXAMPLE
+  # - category: unique_new_york
+  #   amount: 500
+  # - category: another_title
+  #   amount: 400

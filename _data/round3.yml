@@ -1,0 +1,7 @@
+title: Final Jeopardy
+questions:
+- category: final_jeopardy
+  title: "Voyagers"
+  questions:
+    - prompt: "In 1497 the 4 ships under his command included the Berrio & the Sao Rafael"
+      answer: "Vasco da Gama"
