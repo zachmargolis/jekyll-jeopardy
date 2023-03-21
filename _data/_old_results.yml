@@ -1,0 +1,274 @@
+slugs:
+  - 3g_capability
+  - podcasts
+  - colorful_terminology
+  - brand_mascots
+  - hello
+  - dont_blank_on_the_menu
+
+  - steamy_science
+  - second
+  - countries_lowest_points
+  - acdc
+  - short_lived_tv_shows
+  - please_belize_me
+
+contestants:
+      # WAGER EXAMPLE
+      # - correct: true
+      #   category: fifth_title
+      #   amount: 100
+      #   wager: 1888
+
+      # REGULAR EXAMPLE
+      # - category: potent_potables
+      #   amount: 200
+      #   correct: true
+  - name: "Le Tits Now"
+    attempts:
+      - correct: true
+        category: hello
+        amount: 200
+      - correct: true
+        wager: 200
+        amount: 400
+        category: brand_mascots
+      - correct: true
+        amount: 600
+        category: podcasts
+      - correct: true
+        category: dont_blank_on_the_menu
+        amount: 200
+      - correct: true
+        category: brand_mascots
+        amount: 1000
+      - correct: true
+        category: brand_mascots
+        amount: 800
+      - category: hello
+        amount: 800
+        correct: true
+      - category: 3g_capability
+        amount: 1000
+        correct: false
+      - category: podcasts
+        amount: 800
+        correct: true
+      - correct: true
+        category: brand_mascots
+        amount: 600
+      - correct: true
+        category: colorful_terminology
+        amount: 600
+      - correct: true
+        category: colorful_terminology
+        amount: 200
+      - correct: true
+        amount: 200
+        category: podcasts
+      - correct: true
+        amount: 2000
+        category: steamy_science
+      - correct: true
+        amount: 1600
+        category: short_lived_tv_shows
+      - correct: true
+        category: short_lived_tv_shows
+        amount: 400
+      - correct: true
+        category: please_belize_me
+        amount: 400
+      - correct: true
+        category: please_belize_me
+        amount: 800
+      - correct: true
+        category: please_belize_me
+        amount: 1200
+      - correct: false
+        category: please_belize_me
+        amount: 1600
+      - correct: true
+        category: acdc
+        amount: 800
+      - correct: true
+        category: please_belize_me
+        amount: 2000
+      - correct: true
+        category: countries_lowest_points
+        amount: 1600
+      - correct: false
+        category: countries_lowest_points
+        amount: 400
+      - correct: true
+        category: countries_lowest_points
+        amount: 2000
+      - category: final_jeopardy
+        wager: 15999
+        correct: true
+
+  - name: "HP & Arrest J. Mattingly, B. Hankison, & M. Cosgrove"
+    attempts:
+      - correct: true
+        category: colorful_terminology
+        amount: 400
+      - correct: true
+        category: dont_blank_on_the_menu
+        amount: 800
+      - correct: false
+        category: 3g_capability
+        amount: 600
+      - correct: true
+        category: 3g_capability
+        amount: 800
+      - category: 3g_capability
+        amount: 1000
+        correct: true
+      - category: colorful_terminology
+        amount: 1000
+        correct: true
+      - category: colorful_terminology
+        amount: 800
+        correct: true
+      - category: brand_mascots
+        amount: 200
+        correct: true
+      - category: steamy_science
+        amount: 400
+        correct: true
+      - category: steamy_science
+        amount: 1200
+        wager: 2000
+        correct: true
+      - category: steamy_science
+        amount: 1600
+        correct: true
+      - correct: true
+        category: countries_lowest_points
+        amount: 1200
+      - correct: false
+        category: please_belize_me
+        amount: 1600
+      - correct: true
+        category: countries_lowest_points
+        amount: 400
+      - category: second
+        amount: 1200
+        correct: true
+      - category: final_jeopardy
+        wager: 9600
+        correct: true
+
+  - name: "The Doritos"
+    attempts:
+      - correct: false
+        category: dont_blank_on_the_menu
+        amount: 200
+      - correct: true
+        category: dont_blank_on_the_menu
+        amount: 400
+      - correct: false
+        amount: 200
+        category: podcasts
+      - correct: false
+        amount: 2000
+        category: steamy_science
+      - correct: true
+        category: please_belize_me
+        amount: 1600
+      - correct: true
+        amount: 400
+        category: acdc
+
+  - name: "Kris's Lost Orphans"
+    attempts:
+      - correct: false
+        category: dont_blank_on_the_menu
+        amount: 200
+      - correct: true
+        category: dont_blank_on_the_menu
+        amount: 600
+      - correct: true
+        category: hello
+        amount: 600
+      - correct: true
+        category: dont_blank_on_the_menu
+        amount: 1000
+      - correct: true
+        category: 3g_capability
+        amount: 200
+      - correct: true
+        category: acdc
+        amount: 1200
+      - correct: false
+        category: second
+        amount: 1600
+      - category: countries_lowest_points
+        amount: 800
+        correct: true
+      - category: final_jeopardy
+        wager: 2600
+        correct: false
+
+  - name: "Linsanity"
+    attempts:
+      - correct: false
+        category: 3g_capability
+        amount: 600
+      - correct: true
+        category: 3g_capability
+        amount: 400
+      - category: hello
+        amount: 400
+        correct: true
+      - category: hello
+        amount: 1000
+        correct: true
+      - category: podcasts
+        amount: 400
+        correct: true
+      - category: podcasts
+        amount: 1000
+        correct: true
+      - category: second
+        amount: 400
+        correct: true
+      - category: short_lived_tv_shows
+        amount: 800
+        correct: true
+      - category: short_lived_tv_shows
+        amount: 2000
+        correct: true
+      - category: short_lived_tv_shows
+        amount: 1200
+        correct: true
+      - category: second
+        amount: 800
+        correct: true
+      - category: acdc
+        amount: 2000
+        correct: true
+      - category: second
+        amount: 2000
+        correct: true
+      - category: final_jeopardy
+        wager: 11799
+        correct: false
+
+disabled:
+  - correct: false
+    category: 3g_capability
+    amount: 600
+  - correct: false
+    category: steamy_science
+    amount: 800
+  - correct: false
+    category: acdc
+    amount: 1600
+  - correct: false
+    category: second
+    amount: 1600
+  # EXAMPLE
+  # - category: unique_new_york
+  #   amount: 500
+  # - category: another_title
+  #   amount: 400

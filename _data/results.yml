@@ -1,66 +1,249 @@
 slugs:
-  - 3g_capability
-  - podcasts
-  - colorful_terminology
-  - brand_mascots
-  - hello
-  - dont_blank_on_the_menu
+- american_dogs
+- beastly_books
+- state_capital
+- multi_band_musicians
+- populous_nation
+- say_cheese
 
-  - steamy_science
-  - second
-  - countries_lowest_points
-  - acdc
-  - short_lived_tv_shows
+- four_seasons
+- 90s_pop_culture
+- lake_it_like_that
+- missing_links
+- quasi_related_pairs
+- russian_art_culture
+
+- final_jeopardy
 
 contestants:
-  - name: "Wiggles"
+  # WAGER EXAMPLE
+  # - correct: true
+  #   category: fifth_title
+  #   amount: 100
+  #   wager: 1888
+
+  # REGULAR EXAMPLE
+  # - category: potent_potables
+  #   amount: 200
+  #   correct: true
+  - name: "Harry Potter and what ARE frogs?"
     attempts:
-      - category: potent_potables
+      - category: multi_band_musicians
         amount: 200
         correct: true
-      - category: another_title
+      - category: multi_band_musicians
         amount: 400
+        correct: true
+      - category: multi_band_musicians
+        amount: 600
+        correct: true
+      - category: multi_band_musicians
+        amount: 800
+        correct: true
+      - category: say_cheese
+        amount: 600
+        correct: true
+      - category: beastly_books
+        amount: 200
+        correct: true
+      - category: beastly_books
+        amount: 600
+        correct: true
+      - category: beastly_books
+        amount: 800
+        correct: true
+      - category: beastly_books
+        amount: 1000
+        correct: false
+      - category: state_capital
+        amount: 200
+        correct: false
+      - category: state_capital
+        amount: 600
+        correct: true
+      - category: state_capital
+        amount: 800
+        wager: 3600
+        correct: true
+      - category: 90s_pop_culture
+        amount: 400
+        correct: true
+      - category: 90s_pop_culture
+        amount: 1200
+        correct: true
+      - category: 90s_pop_culture
+        amount: 2000
+        correct: true
+      - category: russian_art_culture
+        amount: 1600
+        correct: true
+      - category: quasi_related_pairs
+        amount: 400
+        correct: true
+      - category: quasi_related_pairs
+        amount: 800
+        correct: true
+      - category: russian_art_culture
+        amount: 400
+        correct: true
+      - category: four_seasons
+        amount: 400
+        correct: true
+      - category: missing_links
+        amount: 1200
+        correct: true
+      - category: four_seasons
+        amount: 1200
+        wager: 2400
+        correct: true
+      - category: missing_links
+        amount: 800
+        correct: true
+      - category: quasi_related_pairs
+        amount: 1600
+        correct: true
+      - category: quasi_related_pairs
+        amount: 2000
+        correct: true
+      - category: final_jeopardy
+        wager: 22400
+        correct: true
+
+  - name: "Would you just shut up?"
+    attempts:
+      - category: say_cheese
+        amount: 200
+        correct: true
+      - category: say_cheese
+        amount: 800
+        correct: true
+      - category: beastly_books
+        amount: 400
+        correct: true
+      - category: american_dogs
+        amount: 200
+        correct: true
+      - category: populous_nation
+        amount: 400
+        correct: true
+      - category: populous_nation
+        amount: 200
+        correct: true
+      - category: populous_nation
+        amount: 800
+        correct: false
+      - category: american_dogs
+        amount: 400
+        correct: true
+      - category: populous_nation
+        amount: 1000
+        correct: true
+      - category: state_capital
+        amount: 400
+        correct: truer
+      - category: 90s_pop_culture
+        amount: 800
+        correct: true
+      - category: 90s_pop_culture
+        amount: 1600
+        correct: true
+      - category: russian_art_culture
+        amount: 2000
+        correct: false
+      - category: russian_art_culture
+        amount: 800
+        correct: true
+      - category: four_seasons
+        amount: 800
+        correct: true
+      - category: lake_it_like_that
+        amount: 800
+        correct: true
+      - category: missing_links
+        amount: 2000
+        correct: true
+      - category: lake_it_like_that
+        amount: 1200
+        correct: true
+      - category: lake_it_like_that
+        amount: 1600
+        wager: 9200
+        correct: true
+      - category: lake_it_like_that
+        amount: 2000
+        correct: true
+      - category: four_seasons
+        amount: 2000
+        correct: true
+      - category: final_jeopardy
+        wager: 22400
+        correct: true
+
+  - name: "The Doritos"
+    attempts:
+      - category: state_capital
+        amount: 200
+        correct: truer
+      - category: populous_nation
+        amount: 800
+        correct: true
+      - category: state_capital
+        amount: 1000
+        correct: true
+      - category: american_dogs
+        amount: 1000
+        correct: false
+      - category: final_jeopardy
+        wager: 1000
+        correct: true
+  - name: "Mac Daddies"
+    attempts:
+      - category: populous_nation
+        amount: 600
+        correct: true
+      - category: american_dogs
+        amount: 600
+        correct: true
+      - category: american_dogs
+        amount: 1000
+        correct: false
+      - category: lake_it_like_that
+        amount: 400
+        correct: true
+      - category: missing_links
+        amount: 1600
+        correct: true
+      - category: missing_links
+        amount: 400
+        correct: true
+      - category: final_jeopardy
+        wager: 2600
         correct: false
 
-  - name: "We're the worst team"
-    attempts:
-      - correct: false
-        category: honey_i_fucked_up
-        amount: 200
-      - correct: false
-        category: potent_potables
-        amount: 300
-
-  - name: "We're an okay team"
-    attempts:
-      - correct: true
-        category: honey_i_fucked_up
-        amount: 200
-
-  - name: "Third Place Finishers"
-    attempts:
-      - correct: false
-        category: another_title
-        amount: 300
-      - correct: false
-        category: another_title
-        amount: 400
-      - correct: false
-        category: another_title
-        amount: 500
-      # WAGER EXAMPLE
-      # - correct: true
-      #   category: fifth_title
-      #   amount: 100
-      #   wager: 1888
-
-  - name: "DC Homos"
-
-  - name: "Harry Potter and the Answer in the Form of a Question"
-
 disabled:
+  - category: multi_band_musicians
+    amount: 1000
+  - category: say_cheese
+    amount: 400
+  - category: say_cheese
+    amount: 1000
+  - category: beastly_books
+    amount: 1000
+  - category: american_dogs
+    amount: 800
+  - category: american_dogs
+    amount: 1000
+  - category: russian_art_culture
+    amount: 2000
+  - category: russian_art_culture
+    amount: 1200
+  - category: quasi_related_pairs
+    amount: 1200
+  - category: four_seasons
+    amount: 1600
   # EXAMPLE
   # - category: unique_new_york
   #   amount: 500
   # - category: another_title
   #   amount: 400
+

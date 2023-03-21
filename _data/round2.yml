@@ -1,123 +1,120 @@
 title: Double Jeopardy!
 next: /3
 questions:
-- category: steamy_science
-  title: "Steamy Science"
+- category: four_seasons
+  title: The Four Seasons
   questions:
     - amount: 400
-      prompt: 'Big volumes of steam between the shortening & the dough put the puff in "puff" this'
-      answer: "Pastry"
+      prompt: If people are constantly saying "you're no" this fowl, you're old, baby
+      answer: spring chicken
     - amount: 800
-      prompt: 'A steam iron smoothes wrinkles because heat breaks these between molecules of cellulose in fiber like cotton'
-      answer: "Bonds"
+      prompt: The French song "Les Feuilles Mortes" is known in English as these "Leaves"
+      answer: Autumn Leaves
     - amount: 1200
       daily_double: true
-      prompt: 'Earthquakes have lengthened the average interval between its famed eruptions of water & steam by about 30 minutes'
-      answer: "Old Faithful"
+      prompt: It's the 7-word first line of "Richard III"
+      answer: "Now is the winter of our discontent"
     - amount: 1600
-      prompt: "Boiling water that turns into steam is undergoing this phase change from liquid to gas"
-      answer: "Vaporization"
+      prompt: Proverbially, one of these birds "doesn't make a summer"
+      answer: one swallow
     - amount: 2000
-      prompt: AKA steam coal, this most abundant type of coal gets its name from a Latin word for "pitch"
-      answer: "bituminous"
-- category: second
-  title: "Second…"
+      prompt: Term for a short-lived period of liberalization in Czechoslovakia in 1968
+      answer: the Prague Spring
+
+- category: 90s_pop_culture
+  title: "'90s Pop Culture"
   questions:
     - amount: 400
-      prompt: "...in the Greek alphabet"
-      answer: beta
+      prompt: The "Baywatch" version of this doll raced to the rescue on his own Wave Runner (but Barbie got her own dolphin)
+      answer: Ken
     - amount: 800
-      prompt: ...by release date in "Star Wars" movies
-      answer: The Empire Strikes Back
+      prompt: Not Turmeric or Fennel, but this singer was the first Spice Girl to leave the group
+      answer: Ginger
     - amount: 1200
-      prompt: ...part of Dante's "Divine Comedy"
-      answer: Purgatorio
+      prompt: It's O.K. to ask Allison Janney if she's seen Howard Stern's these--she was in the 1997 film with that title
+      answer: Private Parts
     - amount: 1600
-      prompt: ...bird mentioned in "The 12 Days of Christmas"
-      answer: a turtledove
+      prompt: Tim Curry & Daryl Hannah were "altogether ooky" as this morbid TV duo in a direct-to-video "reunion" film
+      answer: Gomez & Morticia Addams
     - amount: 2000
-      prompt: ...U.S. president to be impeached
+      prompt: It's true, the 2 guys passed off as this group didn't really sing their hit "Girl You Know It's True"
+      answer: Milli Vanilli
+
+- category: lake_it_like_that
+  title: "I Lake It Like That"
+  questions:
+    - amount: 400
+      prompt: Major ports on this Great Lake include Ashtabula & Sandusky
+      answer: Lake Erie
+    - amount: 800
+      prompt: In 1858 this largest lake in Africa was given its royal name by the first European explorer to reach it
+      answer: Lake Victoria
+    - amount: 1200
+      prompt: You can't see land in any direction as you drive 8 of the 24 miles of causeway over this Louisiana lake
+      media: /assets/images/lake.jpg
+      answer: Pontchartrain
+    - amount: 1600
       daily_double: true
-      answer: Bill Clinton
-- category: countries_lowest_points
-  title: Countries' Lowest Points
-  questions:
-    - amount: 400
-      prompt: "For Fiji: this ocean"
-      answer: "the Pacific"
-    - amount: 800
-      prompt: "For the United States: this hot spot that can get into the 120s & beyond"
-      answer: Death Valley
-    - amount: 1200
-      prompt: "For Israel: this body of water"
-      answer: "the Dead Sea"
-    - amount: 1600
-      prompt: "For Iraq & Saudi Arabia: this body of water"
-      answer: the Persian Gulf
+      prompt: Conventional wisdom says this crescent-shaped lake was formed by the Rhone River's natural damming
+      answer: Lake Geneva
     - amount: 2000
-      prompt: "For Albania & Croatia: this sea"
-      answer: the Adriatic
+      prompt: We'll gamble you know the name of this super-deep lake on the Nevada border is from the Washoe for "lake"
+      answer: Lake Tahoe
 
-- category: acdc
-  title: "A_C_D_C"
-  extra:  Each correct response beginning with the letter "A" followed by those other letters somewhere there.)
+- category: missing_links
+  title: Missing Links
   questions:
     - amount: 400
-      prompt: Scholarly, or irrelevant
-      answer: academic
+      prompt: The Virgin ____ Poppins
+      answer: Mary
     - amount: 800
-      prompt: Woody Allen is a noted one of these show biz hyphenates
-      answer: actor-director
+      prompt: Green-eyed ____ truck
+      answer: monster
     - amount: 1200
-      prompt: When you agree with something, you're "in" this with it
-      answer: accordance
+      prompt: Kick the ____ brigade
+      answer: bucket
     - amount: 1600
-      prompt: Dice game in which you want to roll a 1 or a 2
-      answer: acey-deucey
+      prompt: Dress ____ of silence
+      answer: code
     - amount: 2000
-      prompt: Jose Gomez, seen here, runs this jurisdiction of Los Angeles
-      media: /assets/images/2015-06-22_DJ_17.jpg
-      answer: archdiocese
+      prompt: Rack-&-pinion ____ committee
+      answer: steering
 
-- category: short_lived_tv_shows
-  title: "Short-Lived TV Shows"
+- category: quasi_related_pairs
+  title: Quasi-Related Pairs
   questions:
     - amount: 400
-      prompt: >
-        "Undeclared" had Seth Rogen, Kevin Hart, Amy Poehler & him, aka Ron Burgundy
-      answer: Will Ferrell
+      prompt: A male turkey & guitarist Garcia
+      answer: Tom and Jerry
     - amount: 800
-      prompt: >
-        "Studio 60 on the Sunset Strip" had Bradley Whitford, Merritt Wever, Amanda Peet & him, aka Chandler Bing
-      answer: Matthew Perry
+      prompt: Title for lord's wife & Charlie Chaplin's classic character
+      answer: Lady and the Tramp
     - amount: 1200
-      prompt: >
-        "Who Killed Laura Palmer?" was the hot question after the 1990 debut of this ABC drama
-      answer: "Twin Peaks"
+      prompt: A declaration of victory in a card game & a musical synonym for "keynote"
+      answer: gin and tonic
     - amount: 1600
-      prompt: >
-        "My So-Called Life" only lasted a year but it did launch the career of this actress who played 15-year-old Angela Chase
-      answer: Claire Danes
+      prompt: A cute-sounding type of promise & what the skull protects
+      answer: Pinky & the Brain
     - amount: 2000
-      prompt: >
-        "Dr. Vegas" was only in from September to October 2004 but starred Rob Lowe & this "American Hustle" redhead
-      answer: Amy Adams
+      prompt: IBM president Thomas & a pain in the neck
+      answer: Watson & Crick
 
-- category: please_belize_me
-  title: "Please Belize Me"
+- category: russian_art_culture
+  title: Russian Art & Culture
   questions:
     - amount: 400
-      prompt: In 1981 the sun set on this empire's colonial rule in newly independent Belize
-      answer: the British Empire (the United Kingdom accepted)
+      prompt: Frommer's says some of the best souvenirs you can bring home from Russia are nesting dolls & bottles of this--cheers!
+      answer: vodka
     - amount: 800
-      prompt: On Oct. 31, 1961 Belize City was severely damaged by one of these; the capital was moved inland a few years later
-      answer: a hurricane
+      media: /assets/images/river.jpeg
+      prompt: In 1909, painter Boris Kustodiev captured a promenade and some merrymaking along this river
+      answer: the Volga
     - amount: 1200
-      prompt: Belize has been involved for decades in border disputes with this western neighbor
-      answer: Guatemala
+      prompt: Before leaving Russia in 1922, he designed some decorative panels for the Jewish Chamber Theatre in Moscow
+      answer: Chagall
     - amount: 1600
-      prompt: Belize's highest peak is known as this author's "Delight", for its resemblance to the setting of "The Lost World"
-      answer: Sir Arthur Conan Doyle
+      prompt: Russian for "self-boiler", these urns were traditionally used to heat water for tea & in 1989 were showcased on a series of stamps
+      answer: a samovar
     - amount: 2000
-      prompt: About one quarter of Belize's population is of this ethnicity of mixed African & European descent
-      answer: Creole
+      prompt: In this Stravinsky ballet, the title character gives Prince Ivan a magical feather after he captures & releases her
+      answer: The Firebird

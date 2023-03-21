@@ -1,117 +1,123 @@
 title: Round 1
 next: /2
 questions:
-- category: 3g_capability
-  title: "3 G Capability"
+- category: american_dogs
+  title: "American Dogs"
   questions:
     - amount: 200
-      prompt: "There's a (nonalcoholic) Southern Comfort brand of this Christmas drink"
-      answer: "eggnog"
+      prompt: "The breed here didn't originate Down Under; it was called the California this before it was the Australian this"
+      answer: "a shepherd"
+      media: /assets/images/australian-shepherd.jpg
     - amount: 400
-      prompt: "It's the group name, seen here"
-      media: /assets/images/geese.jpg
+      prompt: 'Nicknamed "The American Gentleman", this non-sporting breed from Mass. has a U.S. city right in its name'
+      answer: "the Boston terrier"
     - amount: 600
-      prompt: "A batter making 275 total bases in 500 times at bat has this kind of percentage of .550"
-      answer: "slugging"
+      prompt: "Developed in Wisconsin & seen here, the American water this is a rare breed; there are only about 3,000 in the world"
+      answer: "the American water spaniel"
+      media: /assets/images/american-water-spaniel.jpg
     - amount: 800
-      prompt: "The main topmast stay is part of this, the system of ropes & chains supporting sails"
-      answer: "rigging"
+      prompt: "Bred for draft work, this state dog of New Hampshire shares its name with a wind, a salmon & a helicopter"
+      answer: "a chinkook"
     - amount: 1000
-      prompt: This term can apply geologically to a rock or just mean combined
-      answer: aggregate
-
-- category: podcasts
-  title: "Podcasts"
+      prompt: "George Washington seems to also be the father of the American this breed, with two animals in its name"
+      answer: "a foxhound"
+      media: /assets/images/american-foxhound.jpg
+- category: beastly_books
+  title: "Beastly Books"
+  prompt: "Tell us what the animal is"
   questions:
     - amount: 200
-      prompt: Professor Steven Levitt looks at his field a bit differently, so the podcast he's on isn't "Economics" but this
-      answer: Freakonomics
+      prompt: '"Babar the King" by Jean de Brunhoff'
+      answer: an elephant
     - amount: 400
-      prompt: It's fitting that WBEZ in this city produced the biographical podcast "Making Obama"
-      answer: Chicago
+      prompt: '"Because of Winn-Dixie" by Kate DiCamillo'
+      answer: a dog
     - amount: 600
-      prompt: This former HLN host takes on the misdeeds of the day on her "Crime Stories" podcast
-      answer: Nancy Grace
+      prompt: '"Flowers for Algernon" by Daniel Keyes'
+      answer: a mouse
     - amount: 800
-      prompt: This conference series also has a podcast of talks between smart people & its head honcho Chris Anderson
-      answer: TED
+      prompt: '"Misty of Chincoteague" by Marguerite Henry'
+      answer: a horse
     - amount: 1000
-      prompt: No rainbow, but this PBS host & "Roots" actor reads short fiction on his podcast
-      answer: (LeVar) Burton
-
-- category: colorful_terminology
-  title: "Colorful Terminology"
+      prompt: '"The Yearling" by Marjorie Kinnan Rawlings'
+      answer: a deer
+- category: state_capital
+  title: "State Capital Colleges & Universities"
+  prompt: We'll give you the university or the college; you name the state capital for us
   questions:
     - amount: 200
-      prompt: One who does this threatens to reveal damaging information if not paid to keep quiet
-      answer: blackmails
+      prompt: Grand Canyon University
+      answer: Phoenix
     - amount: 400
-      prompt: When one of these is "raised", it's a warning of danger
-      answer: a red flag
+      prompt: Lincoln Land Community College
+      answer: Springfield
     - amount: 600
-      prompt: Not a full but a partial loss of electrical power
-      answer: a brownout
+      prompt: Thomas Edison State College
+      answer: Trenton
     - amount: 800
-      prompt: A drawing made in designing a building, or any plan, as in one "for success"
-      answer: a blueprint
-    - amount: 1000
-      prompt: More verdant paddocks, or something more promising, like a new job
-      answer: greener pastures
-
-- category: brand_mascots
-  title: "Brand Mascots"
-  questions:
-    - amount: 200
-      prompt: "Rich Uncle Pennybags: this board game"
-      answer: Monopoly
-    - amount: 400
-      prompt: "A dog named Bullseye: this retailer"
-      answer: Target
+      prompt: Oglethorpe University
+      answer: Atlanta
       daily_double: true
-    - amount: 600
-      prompt: "This dapper guy: Planters"
-      answer: Peanuts
-    - amount: 800
-      prompt: "This bird with a long, colorful bill: Froot Loops"
-      answer: Toucan Sam
     - amount: 1000
-      prompt: "Elsie the Cow: this dairy company"
-      answer: Borden
+      prompt: Willamette University
+      answer: Salem
 
-- category: hello
-  title: "Hello!"
+- category: multi_band_musicians
+  title: Multi-Band Musicians
   questions:
     - amount: 200
-      prompt: Logically, this is the Spanish-language version of the British magazine "Hello!"
-      answer: ¡Hola!
+      prompt: 'In 1972 he flew moderately "Hi, Hi, Hi" into the Top 40 with Wings; he was in another OK band before that one'
+      answer: Paul McCartney
     - amount: 400
-      prompt: A doorbell begins "Hello!", the opening number for this hit 2011 religious-themed Broadway musical
-      answer: Book of Mormon
+      prompt: 'The "S" in CSN, this musician made the Rock & Roll Hall of Fame in that band & also in Buffalo Springfield'
+      answer: Stephen Stills
     - amount: 600
-      prompt: Created in 1974, this Japanese character epitomizes the cuteness culture called "Kawaii"
-      answer: Hello Kitty
+      prompt: After the White Stripes, he helped form the Raconteurs
+      answer: Jack White
     - amount: 800
-      prompt: This co that has let people say "hello" for almost 140 years now has a youthful social media studio called Hello Lab
-      answer: AT&T
+      prompt: |-
+        Damon Albarn fronted Blur & this animated "animal" band that sang, "I ain't happy, I'm feeling glad, I got sunshine in a bag"'
+      answer: Gorillaz
     - amount: 1000
-      prompt: Co-created by Zooey Deschanel, this lifestyle website had the last laugh in 2015 when Time, Inc. bought it out
-      answer: HelloGiggles
+      prompt: 'Brandon Bush de-Train-ed, saying "all I want to do" is tour with his brother Kristian & Jennifer Nettles in this country band'
+      answer: Sugarland
 
-- category: dont_blank_on_the_menu
-  title: "Don't Blank on the Menu"
+- category: populous_nation
+  title: "The Most Populous Nation"
+  prompt: "(questions are from June 2015)"
   questions:
     - amount: 200
-      prompt: "McDonald's: 4-piece Chicken ___"
-      answer: McNuggets
+      prompt: "Israel, Ireland, Italy"
+      answer: Italy
     - amount: 400
-      prompt: "Red Lobster: Hand-Battered ___ & ___"
-      answer: Fish & Chips
+      prompt: Kuwait, Saudi Arabia, Yemen
+      answer: Saudi Arabia
     - amount: 600
-      prompt: "Dunkin': Munchkins Donut ___"
-      answer: Holes
+      prompt: Switzerland, Swaziland, Poland
+      answer: Poland
     - amount: 800
-      prompt: "Starbucks: Java Chip ___ Blended Beverage"
-      answer: Frappuccino
+      prompt: Central African Republic, North Korea, East Timor
+      answer: North Korea
     - amount: 1000
-      prompt: "Denny's: ___ ___ Slugger"
-      answer: Grand Slam
+      prompt: Serbia, Croatia, Bosnia & Herzegovina
+      answer: Serbia
+
+- category: say_cheese
+  title: Say Cheese!
+  questions:
+    - amount: 200
+      prompt: Add white wine to some shaved Gruyere & Emmentaler & then heat to make this dipping treat
+      answer: fondue
+    - amount: 400
+      prompt: It's a long way to this Irish county famous for its Cashel blue cheese
+      answer: Tipperary
+    - amount: 600
+      prompt: Seen here, a cool cat named Chester endorses this cheesy snack
+      media: /assets/images/chester.jpg
+      answer: Cheetos
+    - amount: 800
+      prompt: The name of this cheese of India follows saag in a spinach & cheese dish
+      answer: Paneer
+    - amount: 1000
+      prompt: This Germanic cheese name is also found paired with "-gerome"
+      answer: Munster
