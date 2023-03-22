@@ -16,234 +16,47 @@ slugs:
 - final_jeopardy
 
 contestants:
+  # CONTESTANT EXAMPLE
+  # - name: "Team A"
+  #   attempts:
+
   # WAGER EXAMPLE
-  # - correct: true
-  #   category: fifth_title
-  #   amount: 100
-  #   wager: 1888
+  #   - correct: true
+  #     category: fifth_title
+  #     amount: 100
+  #     wager: 1888
 
   # REGULAR EXAMPLE
-  # - category: potent_potables
-  #   amount: 200
-  #   correct: true
-  - name: "Harry Potter and what ARE frogs?"
+  #   - category: potent_potables
+  #     amount: 200
+  #     correct: true
+  - name: "Team A"
     attempts:
       - category: multi_band_musicians
         amount: 200
         correct: true
       - category: multi_band_musicians
         amount: 400
-        correct: true
-      - category: multi_band_musicians
-        amount: 600
-        correct: true
-      - category: multi_band_musicians
-        amount: 800
-        correct: true
-      - category: say_cheese
-        amount: 600
-        correct: true
-      - category: beastly_books
-        amount: 200
-        correct: true
-      - category: beastly_books
-        amount: 600
-        correct: true
-      - category: beastly_books
-        amount: 800
-        correct: true
-      - category: beastly_books
-        amount: 1000
-        correct: false
-      - category: state_capital
-        amount: 200
-        correct: false
-      - category: state_capital
-        amount: 600
-        correct: true
-      - category: state_capital
-        amount: 800
-        wager: 3600
-        correct: true
-      - category: 90s_pop_culture
-        amount: 400
-        correct: true
-      - category: 90s_pop_culture
-        amount: 1200
-        correct: true
-      - category: 90s_pop_culture
-        amount: 2000
-        correct: true
-      - category: russian_art_culture
-        amount: 1600
-        correct: true
-      - category: quasi_related_pairs
-        amount: 400
-        correct: true
-      - category: quasi_related_pairs
-        amount: 800
-        correct: true
-      - category: russian_art_culture
-        amount: 400
-        correct: true
-      - category: four_seasons
-        amount: 400
-        correct: true
-      - category: missing_links
-        amount: 1200
-        correct: true
-      - category: four_seasons
-        amount: 1200
-        wager: 2400
-        correct: true
-      - category: missing_links
-        amount: 800
-        correct: true
-      - category: quasi_related_pairs
-        amount: 1600
-        correct: true
-      - category: quasi_related_pairs
-        amount: 2000
-        correct: true
-      - category: final_jeopardy
-        wager: 22400
         correct: true
 
-  - name: "Would you just shut up?"
+  - name: "Team B"
     attempts:
-      - category: say_cheese
-        amount: 200
-        correct: true
-      - category: say_cheese
-        amount: 800
-        correct: true
       - category: beastly_books
         amount: 400
         correct: true
       - category: american_dogs
         amount: 200
         correct: true
-      - category: populous_nation
-        amount: 400
-        correct: true
-      - category: populous_nation
-        amount: 200
-        correct: true
-      - category: populous_nation
-        amount: 800
-        correct: false
-      - category: american_dogs
-        amount: 400
-        correct: true
-      - category: populous_nation
-        amount: 1000
-        correct: true
-      - category: state_capital
-        amount: 400
-        correct: truer
-      - category: 90s_pop_culture
-        amount: 800
-        correct: true
-      - category: 90s_pop_culture
-        amount: 1600
-        correct: true
-      - category: russian_art_culture
-        amount: 2000
-        correct: false
-      - category: russian_art_culture
-        amount: 800
-        correct: true
-      - category: four_seasons
-        amount: 800
-        correct: true
-      - category: lake_it_like_that
-        amount: 800
-        correct: true
-      - category: missing_links
-        amount: 2000
-        correct: true
-      - category: lake_it_like_that
-        amount: 1200
-        correct: true
-      - category: lake_it_like_that
-        amount: 1600
-        wager: 9200
-        correct: true
-      - category: lake_it_like_that
-        amount: 2000
-        correct: true
-      - category: four_seasons
-        amount: 2000
-        correct: true
-      - category: final_jeopardy
-        wager: 22400
-        correct: true
 
-  - name: "The Doritos"
+  - name: "Team C"
     attempts:
-      - category: state_capital
-        amount: 200
-        correct: truer
-      - category: populous_nation
-        amount: 800
-        correct: true
-      - category: state_capital
-        amount: 1000
-        correct: true
-      - category: american_dogs
-        amount: 1000
-        correct: false
-      - category: final_jeopardy
-        wager: 1000
-        correct: true
-  - name: "Mac Daddies"
-    attempts:
-      - category: populous_nation
-        amount: 600
-        correct: true
-      - category: american_dogs
-        amount: 600
-        correct: true
-      - category: american_dogs
-        amount: 1000
-        correct: false
-      - category: lake_it_like_that
-        amount: 400
-        correct: true
-      - category: missing_links
-        amount: 1600
-        correct: true
-      - category: missing_links
-        amount: 400
-        correct: true
-      - category: final_jeopardy
-        wager: 2600
-        correct: false
 
 disabled:
-  - category: multi_band_musicians
-    amount: 1000
-  - category: say_cheese
-    amount: 400
-  - category: say_cheese
-    amount: 1000
-  - category: beastly_books
-    amount: 1000
-  - category: american_dogs
-    amount: 800
-  - category: american_dogs
-    amount: 1000
-  - category: russian_art_culture
-    amount: 2000
-  - category: russian_art_culture
-    amount: 1200
-  - category: quasi_related_pairs
-    amount: 1200
-  - category: four_seasons
-    amount: 1600
   # EXAMPLE
   # - category: unique_new_york
   #   amount: 500
   # - category: another_title
   #   amount: 400
+  - category: multi_band_musicians
+    amount: 1000
 
